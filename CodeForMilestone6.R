@@ -1,0 +1,8 @@
+library(qcc)
+pareto.chart(a$JURISDICTION.NAME, xlab="Zip Codes", main="Pareto chart for frequency of zip codes")
+mean(a$COUNT.PARTICIPANTS)+qnorm(1-.025)*(sd(a$COUNT.PARTICIPANTS)/sqrt(sum(a$COUNT.PARTICIPANTS)))
+mean(a$COUNT.PARTICIPANTS)-qnorm(1-.025)*(sd(a$COUNT.PARTICIPANTS)/sqrt(sum(a$COUNT.PARTICIPANTS)))
+mean(a$COUNT.MALE)+qnorm(1-.025)*(sd(a$COUNT.MALE)/sqrt(sum(a$COUNT.MALE)))
+mean(a$COUNT.MALE)-qnorm(1-.025)*(sd(a$COUNT.MALE)/sqrt(sum(a$COUNT.MALE)))
+mean(a$COUNT.FEMALE)+qnorm(1-.025)*(sd(a$COUNT.FEMALE)/sqrt(sum(a$COUNT.FEMALE)))
+mean(a$COUNT.FEMALE)-qnorm(1-.025)*(sd(a$COUNT.FEMALE)/sqrt(sum(a$COUNT.FEMALE)))
