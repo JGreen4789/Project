@@ -1,0 +1,3 @@
+barplot(table(a$COUNT.PARTICIPANTS), xlab="total number of people surveyed in zip code", ylab="frequency",main="Frequency of total number of people surveyed in zip codes in New York City")
+barplot(table(a$COUNT.MALE), xlab="total number of males surveyed in zip code", ylab="frequency",main="Frequency of total number of males surveyed in zip codes in New York City")
+barplot(table(a$COUNT.FEMALE), xlab="total number of females surveyed in zip code", ylab="frequency", main="Frequency of total number of females surveyed in zip codes in New York City")
